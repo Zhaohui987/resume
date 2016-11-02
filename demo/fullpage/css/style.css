@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+.section{
+    position:relative;
+    background-color: white;
+    overflow:hidden;
+    text-align: center;
+}
+
+.section1{
+    background-image: url('../image/01.jpg');
+    background-size: cover;
+}
+
+.section2{
+    background-image: url('../image/02.jpg');
+    background-size: cover;
+}
+
+.section3{
+    background-image: url('../image/03.jpg');
+    background-size: cover;
+}
+
+.section1 h1{
+    font-size:50px;
+    color:white;
+    position:relative;
+    right:220px;
+    bottom:20px;
+}
+
+.section1-a1{
+    color:white;
+    position: relative;
+    right:298px;
+    margin-top: 20px;
+    display:block;
+}
+
+.section1-a2{
+    color:white;
+    position: relative;
+    right:309px;
+    margin-top: 20px;
+    display:block;
+}
+
+.section1 p{
+    color:white;
+    position: relative;
+    right:213px;
+}
+
+.section a:link{
+    text-decoration: none;
+}
+
+.section2 h1{
+    font-size:50px;
+    color:white;
+    margin-right: 80%;
+}
+
+.section2-a1{
+    color:white;
+    /*position: relative;
+    right:-167px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:300px;
+    display:block;
+}
+
+.section2-a2{
+    color:white;
+    /*position: relative;
+    /*right:-133px;*/
+    margin-top: 20px;
+    margin-left:75%;
+    display:block;
+}
+
+.section2 p{
+    color:white;
+    /*position: relative;
+    right:-252px;*/
+    margin-top: 20px;
+    margin-left: 75%;
+}
+
+.section3 h1{
+    font-size:60px;
+    color:white;
+}
+
+.section3-a1{
+    color:white;
+    /*position:relative;
+    right:100px;*/
+    margin-top:30px;
+    display:block;
+    font-size: 50px;
+}
+
+.section3 p{
+    color:white;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.section4{
+    background-color: white;
+}
+
+.section4 .col1{
+    width:25%;
+    height:50%;
+    margin-left: 3%;
+    background-color: white;
+    float:left;
+}
+
+.section4 img{
+    width:65%;
+    height:80%;
+    margin-top: 10px;
+}
+
+.section4 .col2{
+    width:26%;
+    height:50%;
+    margin-left: 8%;
+    float:left;
+}
+
+.section4 .col3{
+    width:26%;
+    height:50%;
+    margin-right: 3%;
+    float:right;
+}
+
+.watch{
+    width:263px;
+    height:33px;
+    background-image: url('../image/watch.png');
+    background-size: 100%;
+    margin-left: 45px;
+}
+
+.section4 h1{
+    margin-top: -150px;
+    margin-bottom: 50px;
+    color:#333333;
+}
