@@ -18,10 +18,10 @@ $(function(){
         navigationTooltips:['1111','222','33','444'],
         showActiveTooltip:true,
         afterRender: function(){
-            $(".info1").animate({marginTop:'20px'},600,function(){
-                $(".info2").animate({marginTop:'20px'},600,function(){
-                    $(".info3").animate({marginTop:'20px'},600,function(){
-                        $(".info4").animate({marginTop:'20px'},600);
+            $(".info1").animate({marginTop:'1.25rem'},600,function(){
+                $(".info2").animate({marginTop:'1.25rem'},600,function(){
+                    $(".info3").animate({marginTop:'1.25rem'},600,function(){
+                        $(".info4").animate({marginTop:'1.25rem'},600);
                     });
                 });
             });
@@ -35,8 +35,8 @@ $(function(){
                     break;
                 case 2:
                     move(".demo-title h1").set("opacity","1").end();
-                    move(".demo-title h1").set("font-size","40px").end(function(){
-                        move(".demo-title h1").set("font-size","36px").end();
+                    move(".demo-title h1").set("font-size","2.5rem").end(function(){
+                        move(".demo-title h1").set("font-size","2.25rem").end();
                     });
                     var i=-1;
                     $(".demo-box").each(function(){
