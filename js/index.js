@@ -15,7 +15,7 @@ $(function(){
         menu: '#nav',
         navigation:true,
         navigationPosition:'right',
-        navigationTooltips:['1111','222','33','444'],
+        navigationTooltips:['info','work','hobby','about me'],
         showActiveTooltip:true,
         afterRender: function(){
             $(".info1").animate({marginTop:'1.25rem'},600,function(){
